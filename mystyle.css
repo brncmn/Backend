@@ -1,0 +1,23 @@
+﻿body {
+    border: 1px solid black;
+    width: 32.01%;
+    font-size: 80px;
+}
+
+#A {
+    width: 615px;
+    height: 150px;
+    background-color: red;
+}
+
+#B {
+    width: 615px;
+    height: 150px;
+    background-color: white;
+}
+
+#C {
+    width: 615px;
+    height: 150px;
+    background-color: blue;
+}
