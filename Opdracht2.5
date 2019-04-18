@@ -1,0 +1,26 @@
+using System;
+
+namespace Opdracht_2._5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string firstname;
+            double standardPrice, outcome;
+
+            Console.Write("Enter first name: ");
+            firstname = Convert.ToString(Console.ReadLine());
+
+            Console.Write("Give standardprice: ");
+            standardPrice = Convert.ToDouble(Console.ReadLine());
+
+            outcome = ((((standardPrice / 100 * 5) * 2) + standardPrice + 1000 + standardPrice / 100 * 21));
+
+            Console.WriteLine(firstname + " must pay: " + outcome + "");
+
+            Console.ReadKey();
+        }
+    }
+}
+
