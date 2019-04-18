@@ -1,0 +1,19 @@
+using System;
+
+namespace Opdracht_2._2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter your weight (kg): ");
+            double kg = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter your height (M): ");
+            double height = Convert.ToDouble(Console.ReadLine());
+
+            double BMI = kg / (height * height);
+            Console.WriteLine("Your BMI is:" + BMI);
+            Console.ReadKey();
+        }
+    }
+}
