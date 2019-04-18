@@ -1,0 +1,42 @@
+using System;
+
+namespace Opdracht_2.3
+{
+    class Program
+{
+    static void Main(string[] args)
+    {
+        int number1, number2;
+        double plusOutcome, minOutcome, plusOutcome2, minOutcome2, timesOutcome, devideOutcome, devideOutcome2, restant1, restant2;
+
+        Console.Write("Give number 1: ");
+        number1 = Convert.ToInt16(Console.ReadLine());
+
+        Console.Write("Give number 2: ");
+        number2 = Convert.ToInt16(Console.ReadLine());
+
+        plusOutcome = number1 + number2;
+        minOutcome = number1 - number2;
+        plusOutcome2 = number2 + number1;
+        minOutcome2 = number2 - number1;
+        timesOutcome = number1 * number2;
+        devideOutcome = number1 / number2;
+        devideOutcome2 = number2 / number1;
+        restant1 = number1 % number2;
+        restant2 = number2 % number1;
+
+        Console.WriteLine(plusOutcome);
+        Console.WriteLine(minOutcome);
+        Console.WriteLine(plusOutcome2);
+        Console.WriteLine(minOutcome2);
+        Console.WriteLine(timesOutcome);
+        Console.WriteLine(devideOutcome);
+        Console.WriteLine(devideOutcome2);
+        Console.WriteLine(restant1);
+        Console.WriteLine(restant2);
+
+        Console.ReadKey();
+    }
+}
+}
+
